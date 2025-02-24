@@ -83,7 +83,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link
-                href="https://drive.google.com/file/d/1ofiLr19VXA27T3ZyPH1qwzF64n8AkRGK/view"
+                href="#"
                 target="_blank"
               >
                 {" "}

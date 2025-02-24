@@ -4,6 +4,6 @@ import path from "path";
 dotenv.config();
 
 export const BACKEND_URL =
-  (process.env.NEXT_PUBLIC_BACKEND_URL as string) || "http://localhost:5000";
+  (process.env.NEXT_PUBLIC_BACKEND_URL as string) || "http://localhost:8081";
 export const WS_URL =
   (process.env.NEXT_PUBLIC_BACKEND_URL as string) || "http://localhost:5000";
