@@ -64,7 +64,7 @@ app.get("/", (req: Request, res: Response) => {
 app.use("/user", userRoutes);
 app.use("/room", roomRoutes);
 
-const PORT: number = parseInt(process.env.PORT ?? "5000", 10);
+const PORT: number = parseInt(process.env.PORT ?? "8081", 10);
 const server = createServer(app);
 
 // Initialize the WebSocket logic on the shared HTTP server

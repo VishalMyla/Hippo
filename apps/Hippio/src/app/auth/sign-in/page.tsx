@@ -34,6 +34,8 @@ export default function SignIn() {
         `${BACKEND_URL}/user/login`,
         isGuest ? GUEST_CREDENTIALS : { email, password }
       );
+      console.log(response);
+      console.log(`${BACKEND_URL}/user/login`)
       const data = response.data;
 
       if (data.success) {

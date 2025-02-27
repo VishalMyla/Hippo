@@ -18,7 +18,7 @@ COPY --from=builder /Hippio/node_modules ./node_modules
 COPY --from=builder /Hippio/dist ./dist
 COPY --from=builder /Hippio/package.json ./
 
-EXPOSE 5000
+EXPOSE 5030
 CMD [ "npm","run","start" ]
 
 
